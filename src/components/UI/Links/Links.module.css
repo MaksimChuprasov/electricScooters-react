@@ -1,0 +1,13 @@
+.menuLinks {
+    padding: 10px 30px;
+    color: black;
+    text-decoration: none;
+    font-size: 28px;
+    border: none;
+    cursor: pointer;
+    background: transparent;
+}
+.menuLinks.active {
+    background-color: #cbcbcb;
+    border-radius: 10px;
+}
