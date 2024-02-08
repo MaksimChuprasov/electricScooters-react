@@ -3,10 +3,12 @@ import React, { useState } from 'react';
 import Header from './components/Header/Header';
 import HowItWorks from "./components/HowItWorks/HowItWorks";
 import Move from "./components/Move/Move";
+import Footer from "./components/Footer/Footer";
+import ProfileRegistration from "./components/Header/Profile/ProfileRegistration";
 
 function App() {
 
-  const [tab, setTab] = useState('HowItWorks')
+  const [tab, setTab] = useState('Move')
 
   return (
     <div className="App">
@@ -14,6 +16,9 @@ function App() {
 
       {tab === 'HowItWorks' && <HowItWorks/>}
       {tab === 'Move' && <Move/>}
+      {tab === 'Profile' && <ProfileRegistration/>}
+
+      <Footer/>
 
     </div>
   );
