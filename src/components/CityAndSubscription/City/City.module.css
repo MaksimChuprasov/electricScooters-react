@@ -1,0 +1,23 @@
+.CitySection {
+    background: no-repeat;
+    background-size: 100%;
+    background-image: url("../../../../public/images/bg-city.png");
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 120px;
+    color: white;
+}
+
+.CityTitle {
+    font-size: 66px;
+    margin-top: 200px;
+    margin-bottom: 12px;
+}
+
+.Citys {
+    text-align: right;
+}
+
+.City {
+    font-size: 111px;
+}

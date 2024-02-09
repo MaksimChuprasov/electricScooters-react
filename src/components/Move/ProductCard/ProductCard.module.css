@@ -1,0 +1,32 @@
+.ProductCard {
+    width: 334px;
+    background-color: #FFF;
+    padding-top: 67px;
+    padding: 24px;
+    padding-bottom: 0px;
+    border: 1px solid #d6dbe0;
+    border-radius: 10px;
+    color: #49464F;
+}
+
+.Price {
+    font-size: 21px;
+    
+}
+
+.Winter {
+    color: #7140EB;
+    padding: 1px 10px;
+    background-color: #F1EEF8;
+    border-radius: 10px;
+}
+
+.CardTitle {
+    font-size: 34px;
+    margin-top: 37px;
+}
+
+.CardDescription {
+    font-size: 21px;
+    margin-bottom: 11px;
+}

@@ -1,0 +1,11 @@
+.CardButton {
+    padding: 22px 39px;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    font-size: 16px;
+    margin-bottom: 32px;
+    cursor: pointer;
+    border: 1px solid black;
+    
+}

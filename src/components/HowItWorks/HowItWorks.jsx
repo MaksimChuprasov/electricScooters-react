@@ -2,7 +2,6 @@ import React from 'react';
 import ListItem from './ListItem/ListItem';
 import {ways} from './ListItem/data.js'
 import Button from '../UI/Buttons/Button.jsx';
-import image from '../../images/scooters.png'
 import classes from './HowItWorks.module.css'
 
 function HowItWorks() {
@@ -17,7 +16,7 @@ function HowItWorks() {
                     </ul>
                     <Button/>
                 </div>
-                <img style={{marginRight:'0', marginLeft:'auto'}} src={image} alt='scooters' />
+                <img style={{marginRight:'0', marginLeft:'auto'}} src='images/scooters.png' alt='scooters' />
             </div>
         </section>
      );

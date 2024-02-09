@@ -1,0 +1,23 @@
+.moreSection {
+    background-color: #F5F5F7;
+    display: flex;
+    padding: 96px 118px;
+}
+
+.titleSection {
+    width: 240px;
+    margin-right: 200px;
+}
+
+.title {
+    font-size: 66px;
+    margin-bottom: 53px;
+}
+
+.question {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    margin-bottom: 45px;
+    cursor: pointer;
+}

@@ -1,9 +1,9 @@
 .Button {
 background-color: #7140EB;
 color: white;
-padding: 20px 51px;
+padding: 15px 51px;
 border: none;
 border-radius: 10px;
 cursor: pointer;
-font-size: 16px;
+font-size: 18px;
 }

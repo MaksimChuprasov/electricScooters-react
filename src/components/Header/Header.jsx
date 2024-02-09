@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from '../../images/Frame.png'
 import Button from '../UI/Buttons/Button';
 import classes from './Header.module.css'
 import Link from '../UI/Links/Link';
@@ -9,7 +8,7 @@ function Header({active, onChange}) {
     
     return ( 
         <div className={classes.header}>
-            <img src={logo} alt='logo'/>
+            <img src="images/Frame.png" alt='logo'/>
 
             <nav className={classes.navigation}>
                 <Link isActive={active === 'HowItWorks'} onClick={() => onChange('HowItWorks')}>How it works</Link>
