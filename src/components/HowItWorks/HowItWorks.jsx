@@ -11,7 +11,7 @@ function HowItWorks() {
             <h1 style={{fontSize:'66px', color:'#49464F'}}>How it works</h1>
             <div style={{display:'flex', marginTop:'21px'}}>
                 <div style={{marginTop:'50px'}}>
-                    <ul>
+                    <ul style={{marginBottom:'50px'}}>
                         {ways.map((way) => (<ListItem {...way} key={way.id}/>))}
                     </ul>
                     <Button/>

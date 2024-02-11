@@ -1,8 +1,10 @@
 import React from 'react';
 import AnotherButton from '../UI/Buttons/AnotherButton';
 import classes from './More.module.css'
+import Question from './Question';
 
 function More() {
+
     return ( 
         <section className={classes.moreSection}>
             <div className={classes.titleSection}>
@@ -10,13 +12,19 @@ function More() {
                 <AnotherButton>Learn more</AnotherButton>
             </div>
             <div>
-                <p className={classes.question}><img style={{marginRight:'28px'}} src="images/plus.png" alt="plus" /> How does Dance work?</p>
-                <p className={classes.question}><img style={{marginRight:'28px'}} src="images/plus.png" alt="plus" /> How do I charge my Dance eride?</p>
-                <p className={classes.question}><img style={{marginRight:'28px'}} src="images/plus.png" alt="plus" /> What accessories can I use with my ebike and emoped?</p>
-                <p className={classes.question}><img style={{marginRight:'28px'}} src="images/plus.png" alt="plus" /> How do repairs work?</p>
-                <p className={classes.question}><img style={{marginRight:'28px'}} src="images/plus.png" alt="plus" /> Can I test the ride before buying?</p>
-                <p className={classes.question}><img style={{marginRight:'28px'}} src="images/plus.png" alt="plus" /> How do I cancel my membership?</p>
-                <p className={classes.question}><img style={{marginRight:'28px'}} src="images/plus.png" alt="plus" /> What happens if my vehicle gets stolen?</p>
+                <Question>How does Dance work?</Question>
+
+                <Question>How do I charge my Dance eride?</Question>
+                
+                <Question>What accessories can I use with my ebike and emoped?</Question> 
+                
+                <Question>How do repairs work?</Question> 
+                
+                <Question>Can I test the ride before buying?</Question> 
+                
+                <Question>How do I cancel my membership?</Question>  
+                
+                <Question>What happens if my vehicle gets stolen?</Question>   
             </div>
         </section>
      );

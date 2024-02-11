@@ -21,3 +21,15 @@
     margin-bottom: 45px;
     cursor: pointer;
 }
+
+.Answer {
+    display: none;
+    width: 700px;
+    margin-bottom: 50px;
+    font-size: 18px;
+    color: #696969;
+}
+
+.Answer.active {
+    display: block;
+}

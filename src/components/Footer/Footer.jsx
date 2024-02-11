@@ -1,8 +1,8 @@
 import React from 'react';
 import classes from './Footer.module.css'
 import Input from '../UI/Inputs/Input';
-import FooterLink from './FooterLinks/FooterLinks.jsx';
 import FooterLinks from './FooterLinks/FooterLinks.jsx';
+import {links} from './Links.js'
 
 function Footer() {
     return ( 
@@ -13,10 +13,7 @@ function Footer() {
                 <Input/>
                 <p style={{marginTop:'25px', fontSize:'21px'}}>By checking this box, you allow Dance to collect data relating to the Dance newsletter, including whether it has been opened and clicked through. For more information.</p>
             </div>
-            <FooterLinks/>
-            <FooterLinks/>
-            <FooterLinks/>
-            <FooterLinks/>
+            {links.map((link) =>(<FooterLinks key={link.id} {...link}/>))}
             <div>
 
             </div>

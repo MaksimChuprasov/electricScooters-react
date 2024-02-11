@@ -16,9 +16,11 @@ function Header({active, onChange}) {
                 <Link isActive={active === 'City'} onClick = {() => onChange('City')}>City</Link>
                 <Link isActive={active === 'More'} onClick = {() => onChange('More')}>More</Link>
             </nav>
-            <Link isActive={active === 'Profile'} onClick = {() => onChange('Profile')}>
-                <Profile/>
-            </Link>
+            <div style={{marginRight:'-30px', marginLeft:'110px'}}>
+                <Link isActive={active === 'Profile'} onClick = {() => onChange('Profile')}>
+                    <Profile/>
+                </Link>
+            </div>
             <Button/>
         </div>
      );
